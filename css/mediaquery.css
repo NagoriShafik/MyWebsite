@@ -1,0 +1,858 @@
+/*.... media queries ....*/
+
+@media screen and (max-width: 767px) {
+ /*....head....*/
+
+
+/*--------------------------------------------------------------*/
+
+/*....body....*/
+
+body {
+  display:block;
+  text-align: center;
+  width:1221px;
+}
+
+
+/*--------------------------------------------------------------*/
+
+/*.... tags ....*/
+
+h2 {
+  display: block;
+}
+
+p {
+  width: 100%;
+}
+
+/*--------------------------------------------------------------*/
+
+/*---menu btn------*/
+
+.navbarsection{
+  position:fixed;
+  z-index: 85;
+  width: 100%;
+  height: 100px;
+  backdrop-filter: blur(10px);
+  background:rgba(0,0,0,0.002);
+}
+
+.navbarsection h1{
+  position: fixed;
+
+}
+.navbarsection h1 a{
+  text-decoration: none;
+  color:#fff;
+}
+
+.navbarsection span{
+  color: aqua;
+}
+
+#hamburger{
+  z-index:15 ;
+  height: 80px;
+  width: 80px;
+  display: block;
+  position: absolute;
+  top:10px;
+  right:50px;
+  text-align:center;
+}
+
+.fs{
+  margin-bottom: 10px;
+  display: block;
+  width:40px;
+  background-color: #fff;
+  border: 2px solid #fff;
+  position: relative;
+  left:14px;
+  
+}
+
+.ss{
+  display:inline-block;
+  width:25px;
+  background-color: #fff;
+  border: 2px solid #fff;
+
+}
+
+
+
+
+/*--------------------------------------------------------------*/
+
+/*....nav Section....*/
+
+
+.topsection{
+  display: none;
+  width: 100%;
+  height:2200px;
+  z-index:12;
+  text-align: center;
+  position: fixed;
+
+}
+.ul-list{
+  height: 100%;
+  list-style-type: none;
+}
+
+.ul-list li{
+width: 50%;
+cursor: pointer;
+text-align: center;
+display: block;
+
+}
+.x{
+position: relative;
+  left:10px;
+  font-size: 4rem;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #fff;
+  font-family:sans-serif;
+  letter-spacing:3px;
+}
+
+
+.hm-1{
+  padding:5px 28%;
+
+}
+
+.pr-1{
+padding:5px 22%;
+}
+.sk-1{
+  padding:5px 23%;
+}
+
+.wr-1{
+  padding:5px 25%;
+
+}
+
+.cn-1{
+  padding:5px 13%;
+
+}
+
+
+/*--------------------------------------------------------------*/
+
+/*....HOME PAGE....*/
+.top{
+  height:2200px;
+  display: block;
+
+}
+.t-a{
+width: 100%;
+font-size:50px;
+}
+
+.top-nm {
+  width: 100%;
+  font-size:100px;
+  text-align: start;
+  position:absolute;
+  left:250px ;
+  top:600px;
+  
+
+}
+.bchome{
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  left:500px;
+  top:100%;
+
+}
+
+.top-name {
+  width: 600px;
+  height: 150px;
+  font-size: 100px;
+  color: rgb(205, 203, 200);
+  
+}
+
+.head-p {
+  position: relative;
+  height: 100px;
+  width: 500px;
+  color: rgb(205, 203, 200);
+  letter-spacing:3px;
+}
+.scrdwn{
+  letter-spacing: 10px;
+  font-size: 20px;
+  position: absolute;
+  left:-60px;
+  top:1950px;
+}
+.ctn-head{
+  padding: 20px 55px;
+  font-weight: bold;
+  font-size: 25px;
+  color: #fff;
+  letter-spacing: 2px;
+}
+/*--------------------------------------------------------------*/
+
+/*.... Social Links ....*/
+
+.bottom-container {
+  height: 15%;
+  width: 600px;
+  display: inline-block;
+  line-height: 2;
+  position: absolute;
+  left:400px;
+  top:1900px;
+
+}
+.ld{
+    margin-right: 50px!important;
+}
+
+.footer-link {
+  margin:0 10px;
+}
+.footer-link:hover {
+  color:aqua;
+}
+
+
+/*--------------------------------------------------------------*/
+
+/*.... profile ....*/
+
+#profile {
+display:block;
+  background-color: #202020;
+  color: #808080;
+  line-height: 2;
+  width: 100%;
+  height:1800px;
+}
+
+.abt-me{
+    display: none;
+
+}
+
+.myself{
+  position: relative;
+  left:180px;
+  top:130px;
+  height:500px;
+  width:600px;
+
+}
+
+.mypic {
+  width: 350px;
+  height: 350px;
+  display: inline-block;
+  box-shadow: 10px 10px 20px rgb(17, 57, 102);
+  border-radius: 50%;
+  border: 3px solid #191919;
+  cursor: pointer;
+}
+
+.nm-h3 {
+  font-family:'Kiwi Maru', sans-serif;
+  display: inline-block;
+  font-size: 40px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  border-bottom: 3px solid rgb(17, 57, 102);
+  color: rgb(13, 97, 97);
+}
+
+.sec-2{
+  height: 1100px;
+  width: 1100px;
+  display: inline-block;
+  position: relative;
+  right:30px;
+  top:60px;
+  
+}
+
+.intro {
+  font-size:30px;
+  font-weight: bold;
+  line-height:3;
+  letter-spacing: 3px;
+  margin-left: 3px;
+  position: relative;
+  top: 15px;
+  text-align: start;
+}
+.resume{
+  color:white;
+  padding:50px 50px;
+  border:1px solid white;
+  text-decoration: none!important;
+  transition: 0.5s;
+  font-size:30px;
+  letter-spacing:2px;
+  position:relative;
+  bottom:100px;
+  right:330px;
+  
+
+}
+
+/*--------------------------------------------------------------*/
+
+
+/*.... skills ....*/
+.csk{
+position: relative;
+width: 100%;
+  background-color: #212121;
+
+}
+.edu-me{
+  display:none;
+}
+.carousel-inner{
+width: 100%;
+height: 2000px;
+}
+
+.edu-me1{
+  display: inline-block;
+  position: absolute;
+  z-index: 5;
+}
+
+#skills {
+width: 100%;
+height: 800px;
+  background-color: #212121;
+  color: #808080;
+  text-align: center;
+}
+
+.h2-skill {
+  margin-top: 100px;
+  margin-left: 30px;
+  font-size: 3rem;
+  color:white;
+}
+.em {
+  font-size: 30px;
+  position: relative;
+  top:10px;
+  left: -100px;
+  z-index: 2;
+  color:white;
+  font-family: "Courier New", Courier, monospace;
+}
+.inner{
+    height: 1500px;
+}
+.break{
+    line-height:5;
+    height:80px;
+}
+
+.spn{
+    line-height:5;
+    padding:20px 50px;
+}
+.skill-row{
+    height: 1800px;
+}
+.listsc{
+    height: 1000px;
+    margin-bottom: 100px;
+
+}
+.listsc li{
+    position: relative;
+    top: 0px;
+    line-height:2;
+    text-align: center;
+    margin: 80px 0px;
+}
+
+.pr-j {
+    
+  margin:0;
+  height:25px;
+  background-color:rgb(70, 69, 69);
+  line-height: 5;
+  padding-top: 20px;
+  padding-right: 400px;
+  border-radius:10px;
+  border-right: solid 200px rgb(56, 51, 51);
+
+}
+
+.pr-s {
+  margin:0;
+  height:25px;
+  background-color:rgb(70, 69, 69);
+  line-height: 5;
+  padding-top: 20px;
+  padding-right: 250px;
+  border-radius:10px;
+  border-right: solid 350px rgb(56, 51, 51);
+}
+
+.pr-j2 {
+  margin:0;
+  height:25px;
+  background-color:rgb(70, 69, 69);
+  line-height: 5;
+  padding-top: 20px;
+  padding-right: 200px;
+  border-radius:10px;
+  border-right: solid 400px rgb(56, 51, 51);
+}
+
+.pr-h {
+  margin:0;
+  height:25px;
+  background-color:rgb(70, 69, 69);
+  line-height: 5;
+  padding-top: 20px;
+  padding-right: 450px;
+  border-radius:10px;
+  border-right: solid 150px rgb(56, 51, 51);
+}
+
+.pr-c {
+  margin:0;
+  height:25px;
+  background-color:rgb(70, 69, 69);
+  line-height: 5;
+  padding-top: 20px;
+  padding-right: 400px;
+  border-radius:10px;
+  border-right: solid 200px rgb(56, 51, 51);
+}
+
+.pr-js {
+  margin:0;
+  height:25px;
+  background-color:rgb(70, 69, 69);
+  padding-right: 300px;
+  border-radius:10px;
+  position:relative;
+  right:50px;
+  border-right: solid 300px rgb(56, 51, 51);
+}
+
+.skill-row {
+  padding: 100px;
+}
+
+.next-round{
+  text-decoration: none;
+  display: inline-block;
+  padding: 12px 20px;
+  position: relative;
+  left:800px;
+  top:350px;
+  color: white;
+  font-size: 70px;
+  background-color:none;
+  border-radius:50%;
+}
+
+
+/*--------------------------------------------------------------*/
+
+/*.... Education ....*/
+.eudcation{
+  margin: 0;
+  padding:0;
+  background-color:#212121;
+  position: relative;
+  top:150px;
+
+}
+
+.edu{
+  margin: 0;
+  color:#fff;
+  line-height:2;
+  font-size: 50px;
+  display:block;
+
+
+}
+
+.clg-name{
+  display:block;
+  color:#fff;
+  width:70%;
+  position:relative;
+  left:250px;
+  font-size:35px;
+  text-align:start;
+  letter-spacing: 3px;
+}
+
+.qn{
+  display:block;
+  color:#fff;
+  font-size: 25px;
+text-align:start;
+position:relative;
+left:350px;
+
+}
+
+.clg-info-a{
+color:#808080;
+text-align:start;
+font-size:25px;
+  line-height:3;
+  letter-spacing: 3px;
+
+}
+.clg-info-b{
+color:#808080;
+text-align:start;
+font-size:25px;
+position:relative;
+left:30px;
+  letter-spacing: 3px;
+
+}
+
+.gnp{
+    position: relative;
+    left:450px;
+    font-size:40px;
+    letter-spacing: 3px;
+}
+
+
+
+/*--------------------------------------------------------------*/
+
+/*.... Training ....*/
+
+
+.Training{
+  margin: 0;
+  display:block;
+}
+.trn{
+    font-size: 50px;
+}
+.jsp{
+    font-size: 40px;
+    position:relative;
+    left:450px;
+    letter-spacing:2px;
+}
+.info-a{
+position:relative;
+width:80%;
+left:100px;
+color:#808080;
+font-size:30px;
+  line-height:2;
+  text-align: start;
+  letter-spacing: 3px;
+
+}
+.jsq{
+    font-size: 30px;
+    position: relative;
+    left:500px;
+}
+
+.java-i{
+width:35%;
+  text-align: start;
+  display: inline-block;
+  position: relative;
+  left:2px;
+  top:100px;
+  line-height: 3;
+}
+
+.java-i li{
+    font-size: 30px;
+}
+.web-i{
+  text-align: start;
+  display:inline-block;
+  position: relative;
+  left:100px;
+  top:-700px;
+  line-height: 3;
+}
+.web-i li{
+    font-size:30px;
+}
+.j-i{
+position: relative;
+right:50px;
+font-size:40px;
+}
+.w-i{
+position: relative;
+right:75px;
+font-size: 40px;
+}
+
+
+
+/*-------------------------------------------------------------*/
+
+/*....Work Section ....*/
+
+.worksection{
+  height: 1500px;
+
+}
+.heading{
+  position: relative;
+  left:50px;
+  height: 1200px;
+}
+
+.proimg{
+  height:200px;
+  width:400px;
+  border-radius: 10px;
+  border: 3px solid grey;
+  box-shadow: 10px 10px 20px black;
+}
+
+
+.wrk1{
+  height:200px;
+  width:400px;
+  position: relative;
+  top:150px;
+  left:15px;
+ 
+}
+
+.wrk2{
+  height:200px;
+  width:400px;
+  position: relative;
+  top:-50px;
+  left:550px;
+ 
+}
+
+
+.wrk3{
+  height:200px;
+  width:400px;
+  position: relative;
+  top:50px;
+  left:15px;
+ 
+  
+}
+.wrk4{
+  height:200px;
+  width:400px;
+  position: relative;
+  top:-150px;
+  left:550px;
+  
+}
+
+.wrk5{
+   height:200px;
+  width:400px;
+  position: relative;
+  left:15px;
+  top:-40px;
+
+}
+
+
+
+/*--------------------------------------------------------------*/
+
+
+/*.... contact me ....*/
+.contact-me{
+width:100%;
+height:1600px;
+
+}
+.contactme{
+  width:95%;
+height:1500px;
+position:relative;
+left:70px;
+
+}
+
+.getintouch{
+  width:800px;
+  height:300px;
+  position: relative;
+  top:300px;
+  left:50px;
+  text-align:start;
+  z-index: 2;
+  
+}
+
+.getintouch a{
+  line-height:2;
+  font-size: 30px;
+  color: rgb(205, 203, 200);
+  letter-spacing:2px;
+  text-decoration:none;
+}
+
+.getintouch a:hover{
+  color: rgb(90, 89, 89);
+}
+
+
+.getintouch h1{
+  font-size: 100px;
+  font-family: 'Ubuntu', sans-serif;
+  color: rgb(205, 203, 200);
+  line-height:3;
+  letter-spacing:15px;
+}
+.p{
+  position:relative;
+  bottom:50px;
+  font-size:20px;
+  color:#212529;
+  
+}
+
+.line1{
+  position:relative;
+  bottom:100px;
+  color: rgb(205, 203, 200);
+}
+.line2{
+  position: relative;
+  left:50px;
+  bottom:100px;
+  color: red;
+}
+.ctnimg{
+  width:500px;
+  height:1300px;
+  position: absolute;
+  right:30px;
+  top:50px;
+  
+
+}
+
+
+/*--------------------------------------------------------------*/
+
+
+/*.... Footer ....*/
+
+.footer{
+  position: relative;
+  height: 1000px;
+  width:100%;
+  color:#fff;
+
+}
+.footer1{
+  height:150px;
+  width: 750px;
+  position: absolute;
+  left: 120px;
+  top:100px;
+  text-align: start;
+
+}
+.footer1 p{
+  height:30px;
+  width:70%;
+  color:rgb(112, 111, 111);
+}
+
+.explore{
+  display: inline-block;
+  width:200px;
+  position: relative;
+  top:300px;
+  left:-390px;
+  text-align: start;
+
+}
+
+.explore li{
+  position: relative;
+  right:30px;
+  list-style: none;
+  
+}
+
+.explore a{
+  text-decoration: none;
+  color:rgb(112, 111, 111);
+}
+
+.explore a:hover{
+  color:#bdbcbc;
+}
+
+.follow{
+  position:absolute;
+  top:650px;
+  left:120px;
+  height:200px;
+  width:500px;
+  text-align:start;
+}
+
+.follow a{
+  margin:15px 20px ;
+  position:relative;
+  top:20px;
+  right:20px;
+  font-size:35px;
+  text-decoration: none;
+  color:rgb(112, 111, 111);
+
+}
+.follow a:hover{
+  color:aquamarine;
+}
+
+.copyright {
+  display: inline-block;
+  position: absolute;
+  bottom:10px;
+  left:30%;
+  height:50px;
+  width:500px;
+  font-size: 20px;
+  color: #eaf6f6;
+}
+
+/*--------------------------------------------------------------*/
