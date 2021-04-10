@@ -1,4 +1,7 @@
-
+var preloader = document.getElementById('loading');
+function lodinglogo() {
+  preloader.style.display = "none";
+}
 
 $(document).ready(function () {
 
