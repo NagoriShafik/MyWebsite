@@ -264,6 +264,7 @@ font-size:20px;
 
 #profile {
 display:block;
+ max-width:100%;
   background-color: #202020;
   color: #808080;
   height:900px;
@@ -503,6 +504,7 @@ height: 800px;
 
 /*.... Education ....*/
 .eudcation{
+ max-width:100%;
   margin: 0;
   padding:0;
   background-color:#212121;
