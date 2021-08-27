@@ -21,30 +21,35 @@ body {
   display:block;
   margin-top: 50px;
  position: inherit;
- top: 500px;
+ top: 50px;
   color: rgb(187, 56, 56) !important;
 }
 #mobile{
   display:block !important;
 }
-#mobile #lp{
+#classicn{
+  height: 200px;
+  width:200px;
+  position: relative;
+  left:-25%;
+  top:200px;
+}
+#classicn #lp{
   position: absolute !important;
-  top: 30%;
-  right:20%;
   font-size:200px;
   color: #fff;
 }
 #rtr{
   font-size: 50px;
   position:absolute;
-  left:230px;
-  top: 320px;
+  top:50px;
+  left:100px;
   color:#fff;
   animation: spin 2s linear infinite;
 }
 .visit{
   position:absolute;
-  bottom:200px;
+  bottom:20%;
   left:100px;
 }
 @keyframes spin{
@@ -52,6 +57,7 @@ body {
     transform:rotate(360deg);
   }
 }
+
 
 
 /*--------------------------------------------------------------*/
