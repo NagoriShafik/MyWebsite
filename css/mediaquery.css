@@ -13,6 +13,46 @@ body {
   text-align: center;
 }
 
+ body div {
+  display:none !important;
+}
+
+#dc{
+  display:block;
+  margin-top: 50px;
+ position: inherit;
+ top: 500px;
+  color: rgb(187, 56, 56) !important;
+}
+#mobile{
+  display:block !important;
+}
+#mobile #lp{
+  position: absolute !important;
+  top: 30%;
+  right:20%;
+  font-size:200px;
+  color: #fff;
+}
+#rtr{
+  font-size: 50px;
+  position:absolute;
+  left:230px;
+  top: 320px;
+  color:#fff;
+  animation: spin 2s linear infinite;
+}
+.visit{
+  position:absolute;
+  bottom:200px;
+  left:100px;
+}
+@keyframes spin{
+  100%{
+    transform:rotate(360deg);
+  }
+}
+
 
 /*--------------------------------------------------------------*/
 
