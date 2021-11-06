@@ -535,6 +535,7 @@ padding-right: 88%;
 }
 .mypic:hover{
   transform: scale(1.1);
+}
 
 .nm-h3 {
   font-family:'Kiwi Maru', sans-serif;
@@ -551,24 +552,26 @@ padding-right: 88%;
 }
 
 .sec-2{
-  height: 50rem;
+  height: 60rem;
   width: 110rem;
   max-width:100%;
   display: inline-block;
   position: relative;
-  top:3rem;
+  top:6rem;
   
 }
 
 .intro {
-  font-size:2rem;
-  line-height:2;
+  font-size:2.2rem;
+  line-height:3;
+  letter-spacing: 0.3rem;
+  margin-left: 0.3rem;
   text-align: start;
 }
 .resume{
   position:relative;
-  top:-1rem;
-  left:-10rem;
+  top:7rem;
+  right:39rem;
   padding:20px 20px;
   color:white;
   border:1px solid white;
@@ -582,7 +585,7 @@ padding-right: 88%;
 
 .resume:hover{
   position:relative;
-  top:3rem;
+  top:6rem;
   color:#fff;
   box-shadow: 10px 10px 20px black;
   background-color:transparent;
