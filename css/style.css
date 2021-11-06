@@ -568,8 +568,8 @@ padding-right: 88%;
 }
 .resume{
   position:relative;
-  top:-10rem;
-  left:1rem;
+  top:-1rem;
+  left:-10rem;
   padding:20px 20px;
   color:white;
   border:1px solid white;
