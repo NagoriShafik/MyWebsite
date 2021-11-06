@@ -523,7 +523,7 @@ padding-right: 88%;
 .mypic {
   margin: 0;
   position: relative;
-  top:-1rem;
+  top:-2rem;
   right:15rem;
   width: 23rem;
   height: 23rem;
@@ -535,7 +535,7 @@ padding-right: 88%;
   transition: 2s;
 }
 .mypic:hover{
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .nm-h3 {
@@ -558,7 +558,7 @@ padding-right: 88%;
   max-width:100%;
   display: inline-block;
   position: relative;
-  top:-2rem;
+  top:-3rem;
   
 }
 
