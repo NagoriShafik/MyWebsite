@@ -480,11 +480,11 @@ padding-right: 88%;
 
 #profile {
   margin: 0;
-  width:100vw;
-  hieght:150rem;
+  padding: 50px 0 400px 100px;
   background-color: #202020;
   color: #808080;
   line-height: 2;
+  padding-bottom: 13px;
 }
 
 .abt-me{
@@ -535,7 +535,6 @@ padding-right: 88%;
 }
 .mypic:hover{
   transform: scale(1.1);
-}
 
 .nm-h3 {
   font-family:'Kiwi Maru', sans-serif;
