@@ -552,25 +552,23 @@ padding-right: 88%;
 }
 
 .sec-2{
-  height: 60rem;
+  height: 50rem;
   width: 110rem;
   max-width:100%;
   display: inline-block;
   position: relative;
-  top:5rem;
+  top:3rem;
   
 }
 
 .intro {
   font-size:2rem;
   line-height:2;
-  letter-spacing: 0.1rem;
-  margin-left: 0.1rem;
   text-align: start;
 }
 .resume{
   position:relative;
-  top:5rem;
+  top:3rem;
   left:5rem;
   padding:20px 20px;
   color:white;
@@ -585,7 +583,7 @@ padding-right: 88%;
 
 .resume:hover{
   position:relative;
-  top:6rem;
+  top:3rem;
   color:#fff;
   box-shadow: 10px 10px 20px black;
   background-color:transparent;
