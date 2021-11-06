@@ -480,11 +480,11 @@ padding-right: 88%;
 
 #profile {
   margin: 0;
-  padding: 50px 0 400px 100px;
+  width:100vw;
+  hieght:150rem;
   background-color: #202020;
   color: #808080;
   line-height: 2;
-  padding-bottom: 13px;
 }
 
 .abt-me{
