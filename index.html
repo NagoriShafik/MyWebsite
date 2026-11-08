@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Shafik Studio · Nagori Shafik</title>
+<meta name="description" content="Walk into Shafik Studio, a tiny 3D office that is also the portfolio of Nagori Shafik: full-stack and applied AI engineer, available for freelance projects and remote team work.">
+<meta name="theme-color" content="#25324a">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%2325324a'/%3E%3Cpath d='M14 46V26l18-10 18 10v20z' fill='%23ffb703'/%3E%3Crect x='27' y='32' width='10' height='14' rx='2' fill='%2325324a'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@500;600;700;800&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="c" aria-label="Interactive 3D office"></canvas>
+
+<div id="loading"><div class="ld"><div class="spin"></div><p>Opening the office&hellip;</p></div></div>
+
+<header id="top">
+  <a class="brand" href="./" aria-label="Shafik Studio"><i></i><b>Shafik Studio</b></a>
+  <span class="avail"><span class="dot"></span><span>Available for projects</span><span class="long">&nbsp;&middot; remote-friendly</span></span>
+  <nav class="tools">
+    <button id="bPlaces" class="chip" type="button">Places</button>
+    <button id="bFree" class="chip" type="button">Explore</button>
+  </nav>
+</header>
+
+<div id="roomtag" hidden></div>
+<div id="hint" hidden></div>
+
+<section id="start">
+  <div class="card">
+    <span class="eyebrow">Nagori Shafik &middot; Full-stack &amp; applied AI engineer</span>
+    <h1>Come on in.</h1>
+    <p>This little office is my portfolio. Walk in, say hello to our AI Assistant at reception and ask for what you came for: the work, the research, or a word with the owner.</p>
+    <form id="nameForm" autocomplete="off">
+      <label for="nameIn">What should we call you?</label>
+      <div class="row"><input id="nameIn" type="text" maxlength="20" placeholder="Your name" autocomplete="given-name" enterkeyhint="go" required><button id="bStart" class="big" type="submit">Walk in <span aria-hidden="true">&rarr;</span></button></div>
+    </form>
+    <small>Takes about two minutes. Best with sound off and curiosity on.</small>
+  </div>
+</section>
+
+<section id="dlg" hidden>
+  <div class="dhead"><span id="dwho" class="who"></span><button id="dclose" class="x" type="button" aria-label="Close">&times;</button></div>
+  <p id="dtext"></p>
+  <div id="dchips" class="chips"></div>
+  <div id="dbtns" class="btns"></div>
+</section>
+
+<section id="places" hidden>
+  <div class="sheet">
+    <div class="dhead"><span class="who">Where to?</span><button id="pclose" class="x" type="button" aria-label="Close">&times;</button></div>
+    <div id="plist" class="plist"></div>
+  </div>
+</section>
+
+<div id="joy" hidden><div id="knob"></div></div>
+
+<section id="fallback" hidden>
+  <div class="card">
+    <h1>Shafik Studio</h1>
+    <p>Your browser could not start the 3D office. Please try a recent Chrome, Edge, Safari or Firefox.</p>
+    <p>Nagori Shafik is a full-stack and applied AI engineer, available for freelance projects and remote team work.</p>
+    <a class="big" href="mailto:nagorishafiq1996.se@gmail.com?subject=Project%20enquiry">Email Nagori</a>
+  </div>
+</section>
+
+<noscript><div class="card ns"><h1>Shafik Studio</h1><p>This portfolio is a 3D office and needs JavaScript. Nagori Shafik is a full-stack and applied AI engineer: <a href="mailto:nagorishafiq1996.se@gmail.com">nagorishafiq1996.se@gmail.com</a></p></div></noscript>
+
+<script src="three.min.js"></script>
+<script src="people.js"></script>
+<script src="office.js"></script>
+<script src="story.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
